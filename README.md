@@ -1,4 +1,4 @@
-#To experience the app, install the necessary dependencies with npm install, then use npm run dev to run the app and it will run on the port it says it will.
+To experience the app, install the necessary dependencies with npm install, then use npm run dev to run the app and it will run on the port it says it will.
 
 # React + TypeScript + Vite
 
