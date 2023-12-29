@@ -74,12 +74,8 @@ function KanbanBoard() {
         setTasks(filteredTask)
     }
 
-
-
-
     /*Drag drop fonksiyonları*/
     function onDragStart(e: DragStartEvent) {
-        console.log("drag start", e);
         if (e.active.data.current?.type === "Column") {
             setActiveColumn(e.active.data.current.column);
             return;
@@ -139,10 +135,6 @@ function KanbanBoard() {
                 return arrayMove(tasks, activeIndex, activeIndex)//arrayMove=>arrayı farklı bir pozisyona tasımayı saglıyor
             })
         }
-
-
-        //task'ı column üzerine bbırakma
-
 
     }
 
